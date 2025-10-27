@@ -31,10 +31,7 @@ def ik_cost(end_effector_pos, guess):
     cost = 0.0
 
     # Add your solution here.
-    forward_position = forward_kinematics.fk_foot(guess)[0:3,3]
-    cost = np.linalg.norm(end_effector_pos - forward_position)
-    return cost
-
+    
     return cost
 
 def calculate_jacobian_FD(joint_angles, delta):
