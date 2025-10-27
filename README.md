@@ -1,4 +1,4 @@
-# RBT350-Fall24-H03
+# RBT350-Fall25-H03
 
 ### Prerequisites
 * OS: Mac / Linux / Windows
@@ -10,8 +10,8 @@ The PyBullet simulator requires Microsoft Visual C++ to compile on Windows. You 
 
 ### Seup the codebase
 ```
-git clone https://github.com/UT-Austin-RobIn/RBT350-Fall24-H03.git
-cd RBT350-Fall24-H03
+git clone https://github.com/UT-Austin-RobIn/RBT350-Fall25-H03.git
+cd RBT350-Fall25-H03
 ```
 
 ### Conda environment setup
@@ -55,7 +55,7 @@ conda commands available from other packages (legacy):
 
 If you did not get an output similar to the above, install miniconda through [this link](https://docs.anaconda.com/miniconda/#quick-command-line-install). Once that's done, create a conda environment for the project by running the terminal commands below. If you're on Windows, you will need to do this in the Anaconda Prompt Terminal. Those on Linux and MacOS can run the commands in a regular terminal. 
 ```
-conda create -n rbt350_ho3 python=3.8
+conda create -n rbt350_ho3 python=3.10
 conda activate rbt350_ho3
 pip install -e .
 ```
